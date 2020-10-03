@@ -1,0 +1,692 @@
+.container{
+    width:100%;
+    height:35px;
+    background-color:#3e8b94 ;
+}
+.wrap{
+    width:1100px;
+    margin:0 auto;
+}
+.menu{
+    line-height:35px;
+    color:#cad3d4;
+    font-size:13px;
+}
+.menu-left{
+    float:left;
+    display:flex;
+}
+.menu-left img{
+    vertical-align: middle;
+}
+.menu-left-item{
+    margin-left:10px;
+}
+.menu-right{
+    float:right;
+}
+.menu-right a{
+    text-decoration: none;
+    color:#cad3d4;
+    display:inline-block;
+    margin-right:10px;
+
+}
+.logo-bgc{
+    width:100%;
+    background:url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/head_bg.jpg)
+    center top;
+}
+
+.logo{
+    position:relative;
+    height:126px;
+    /* background-color: pink; */
+}
+.logo img{
+    width:350px;
+    height:90px;
+    position:absolute;
+    top:50%;
+    transform:translate(0,-50%);
+}
+.search{
+    -webkit-transition:all 1s;
+    /* width:527px; */
+    width:367px;
+    height:40px;
+    position:absolute;
+    top:50%;
+    right:0;
+    transform:translate(0,-50%);
+    background:url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/by.png)
+    no-repeat 1px -4px;
+}
+.search-title{
+    -webkit-transition:all 1s;
+    /* width:150px; */
+    width:0px;
+    height:40px;
+    background-color: white;
+    border:0;
+    outline:none;
+    float:right;
+    padding:0;
+    /* display:none; */
+    /* visibility:hidden; */
+}
+ .search-submit{
+    width:40px;
+    height:40px;
+    background:#10959e url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/sous.png)
+    no-repeat center;
+    border:0;
+    outline:none;
+    float:right;
+    cursor:pointer;
+} 
+.search:hover{
+    width:527px;
+
+}
+.search:hover .search-title{
+    /* display:block; */
+    /* visibility:visible; */
+    width:150px;
+}
+/* .serach-title:hover{
+    display:block;
+}
+.search-submit:hover+.search-title{
+    display:block;
+} */
+.nav{
+    width:100%;
+    height:44.8px;
+    background-color:#005E60;
+}
+.wrap-item{
+    float:left;
+    padding:0 24px;
+    position:relative;
+}
+.nav a{
+    /* float:left; */
+    /* padding:0 24px; */
+    line-height:44.8px;
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+}
+.wrap-item:hover{
+    background-color: #186f76;
+}
+.wrap-item:hover .small-item{
+    display:block;
+    z-index:99;
+}
+.small-item{
+    white-space:nowrap;
+    display:none;
+    /* width:0px; */
+    position:absolute;
+    top:44.8px;
+    left:0;
+    background-color:rgba(8, 10, 13, 0.7);
+
+}
+
+.small-item span{
+    /* white-space:nowrap; */
+    display:block;
+    color:#D8D8D8;
+    height:40px;
+    line-height:40px;
+    padding:0 17px;
+    font-size:14px;
+}
+.small-item span:hover{
+    background-color: #186f76;
+
+}
+.lunbotu{
+    position:relative;
+}
+.lunbotu img{
+    width:100%;
+    /* animation:myfirst 3s;
+    -webkit-animation:myfirst 3s; */
+}
+/* @-webkit-keyframes myfirst{
+    0% {opacity:1}
+    100% {opacity:0}
+} */
+.show-btn{
+    position:absolute;
+    right:10%;
+    bottom:20px;
+}
+.show-btn a{
+    cursor:pointer;
+    display:inline-block;
+    width:13px;
+    height:13px;
+    margin-right:5px;
+    border-radius: 50%;
+    background:url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/slide_btns.png)
+    no-repeat center top;
+    /* background:url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/slide_btns.png)
+    no-repeat center bottom; 选中时的状态*/
+    -webkit-transition:all 1s;
+
+}
+/* .focus-container{
+    top:40%;
+    left:5%;
+} */
+.focus-prev{
+    cursor:pointer;
+    position:absolute;
+    top:40%;
+    left:5%;
+    width:30px;
+    height:50px;
+    display:inline-block;
+    opacity:0.7;
+    background:url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/slide_next.png)
+    no-repeat;
+}
+.focus-next{
+    cursor:pointer;
+    position:absolute;
+    top:40%;
+    right:5%;
+    width:30px;
+    height:50px;
+    display:inline-block;
+    opacity:0.7;
+    background:url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/slide_next.png)
+    no-repeat right top;
+}
+.focus-prev:hover{
+    opacity:1;
+}
+.focus-next:hover{
+    opacity:1;
+}
+.title-text{
+    margin-top:20px;
+    margin-bottom:20px;
+    display:flex;
+    justify-content:space-between;
+}
+.title-text-left{
+    width:655px;
+    height:515.8px;
+    /* background-color:pink; */
+}
+.title-text-right{
+    width:400px;
+    height:517px;
+    /* background-color: orange; */
+}
+.title-text-left .title{
+    width:100%;
+    height:45.6px;
+    line-height:45.6px;
+    border-bottom:2px solid #f6810d;
+}
+.title-text-left .title .main{
+    color:#424242;
+    font-weight:bold;
+    font-size:17px;
+    float:left;
+}
+.title-text-left .title .small{
+    color:#666;
+    font-size:14px;
+    cursor:pointer;
+    float:right;
+}
+.title-text-left .latestnews{
+    padding:12px 0;
+    display:flex;
+}
+.title-text-left .latestnews img{
+    width:270px;
+}
+.title-text-left .desc h4{
+    line-height:25px;
+    padding-left:10px;
+    font-size:16px;
+    color:#fff;
+    background-color:#00707a;
+    height:54px;
+    text-align:center;
+    margin:0;
+    /* padding:0; */
+}
+.title-text-left .desc .span{
+    padding:15px 5px 0;
+}
+.title-text-left .desc span{
+    line-height:26px;
+    font-size:14px;
+    color:#817d7d;
+}
+.title-text-left .news{
+    padding:3px 0;
+}
+.title-text-left .news-item{
+    height:34.4px;
+    line-height:34.4px;
+    font-size:15px;
+}
+.title-text-left .news-item .text{
+    float:left;
+    color:#333;
+    cursor:pointer;
+}
+.title-text-left .news-item .time{
+    float:right;
+    color:#9C9C9C;
+}
+
+
+.title-text-right .title{
+    width:100%;
+    height:45.6px;
+    line-height:45.6px;
+    border-bottom:2px solid #f6810d;
+}
+.title-text-right .title .main{
+    color:#424242;
+    font-weight:bold;
+    font-size:17px;
+    float:left;
+}
+.title-text-right .title .small{
+    color:#666;
+    font-size:14px;
+    cursor:pointer;
+    float:right;
+}
+.title-text-right .latestnews{
+    /* padding:12px 0; */
+    padding-top:12px;
+    padding-bottom:8px;
+    display:flex;
+}
+.title-text-right .demo{
+    padding:12px 0;
+}
+.title-text-right .latestnews .date{
+    width:64px;
+    height:54px;
+    background:#EDB700;
+    text-align:center;
+}
+.title-text-right .latestnews .date span{
+    display:block;
+}
+.title-text-right .latestnews .date .mon{
+    font-size:14px;
+    color:#000;
+    line-height:20px;
+}
+.title-text-right .latestnews .date .ele{
+    font-size:25px;
+    color:#000;
+    line-height:30px;
+}
+.title-text-right .latestnews .desc{
+    flex:1;
+}
+.title-text-right .latestnews .desc h4{
+    line-height:25px;
+    font-size:16px;
+    color:#333;
+    /* background-color:#00707a; */
+    background-color: #f0f0e5;
+
+    height:54px;
+    text-align:center;
+    margin:0;
+}
+.title-text-right .news{
+    padding:3px 0;
+}
+.title-text-right .news-item{
+    height:34.4px;
+    line-height:34.4px;
+    font-size:15px;
+}
+.title-text-right .news-item .text{
+    width:304px;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    float:left;
+    color:#333;
+    cursor:pointer;
+}
+.title-text-right .news-item .time{
+    float:right;
+    color:#9C9C9C;
+}
+
+
+.help{
+    display:flex;
+    justify-content: space-between;
+}
+.help .one{
+    width:263px;
+}
+.help .two{
+    width:263px;
+
+}
+.help .three{
+    width:263px;
+
+}
+.help .four{
+    width:263px;
+
+}
+.help .item{
+    position:relative;
+    width:205px;
+    height:77px;
+    padding-left:58px;
+    margin-bottom:8px;
+    background-color:#f0f0e5;
+}
+.help .item1{
+    width:263px;
+    height:162px;
+    /* padding-left:36px; */
+    margin-bottom:8px;
+    background-color:#00707a;
+    color:#fff;
+    line-height:162px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.help .item1 .mesg{
+    font-size:18px;
+    text-align:left;
+}
+.icon4{
+    background:url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/icon.png)
+    no-repeat;
+    display:inline-block;
+    width:95px;
+    height:92px;
+    margin-top:14px;
+    margin-bottom:13px;
+    background-position:-980px -11px;
+    opacity:0.7;
+    cursor:pointer;
+}
+.icon4:hover{
+    opacity:1;
+}
+.icon2{
+    background:url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/icon.png)
+    no-repeat;
+    width:46px;
+    height:50px;
+    margin-top:14px;
+    margin-bottom:13px;
+    display:inline-block;
+    background-position:-140px -11px;
+    opacity:0.7;
+    cursor:pointer;
+}
+.icon2:hover{
+    opacity:1;
+}
+.help .item .tit{
+    font-size:18px;
+    text-align:left;
+    color:#333;
+    cursor:pointer;
+    position:absolute;
+    top:50%;
+    transform:translate(0,-50%);
+}
+.icon1{
+    background:url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/icon.png)
+    no-repeat;
+    width:46px;
+    height:50px;
+    margin-top:14px;
+    margin-bottom:13px;
+    display:inline-block;
+    background-position:-21px -12px;
+    opacity:0.7;
+    cursor:pointer;
+}
+.icon1:hover{
+    opacity:1;
+}
+.icon3{
+    background:url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/icon.png)
+    no-repeat;
+    width:46px;
+    height:50px;
+    margin-top:14px;
+    margin-bottom:13px;
+    display:inline-block;
+    background-position:-259px -10px;
+    opacity:0.7;
+    cursor:pointer;
+}
+.icon3:hover{
+    opacity:1;
+}
+.icon5{
+    background:url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/icon.png)
+    no-repeat;
+    width:46px;
+    height:50px;
+    margin-top:14px;
+    margin-bottom:13px;
+    display:inline-block;
+    background-position:-391px -12px;
+    opacity:0.7;
+    cursor:pointer;
+}
+.icon5:hover{
+    opacity:1;
+}
+.icon6{
+    background:url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/icon.png)
+    no-repeat;
+    width:46px;
+    height:50px;
+    margin-top:14px;
+    margin-bottom:13px;
+    display:inline-block;
+    background-position:-519px -14px;
+    opacity:0.7;
+    cursor:pointer;
+}
+.icon6:hover{
+    opacity:1;
+}
+.icon7{
+    background:url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/icon.png)
+    no-repeat;
+    width:46px;
+    height:50px;
+    margin-top:14px;
+    margin-bottom:13px;
+    display:inline-block;
+    background-position:-647px -14px;
+    opacity:0.7;
+    cursor:pointer;
+}
+.icon7:hover{
+    opacity:1;
+}
+.icon8{
+    background:url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/icon.png)
+    no-repeat;
+    width:46px;
+    height:50px;
+    margin-top:14px;
+    margin-bottom:13px;
+    display:inline-block;
+    background-position:-765px -14px;
+    opacity:0.7;
+    cursor:pointer;
+}
+.icon8:hover{
+    opacity:1;
+}
+.icon9{
+    background:url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/icon.png)
+    no-repeat;
+    width:46px;
+    height:50px;
+    margin-top:14px;
+    margin-bottom:13px;
+    display:inline-block;
+    background-position:-878px -14px;
+    opacity:0.7;
+    cursor:pointer;
+}
+.icon9:hover{
+    opacity:1;
+}
+.help .item2{
+    width:263px;
+    height:162px;
+    /* padding-left:36px; */
+    margin-bottom:8px;
+    background-color:#e19e35;
+    color:#fff;
+    line-height:162px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.help .item2 .mesg{
+    font-size:18px;
+    text-align:left;
+}
+.icon10{
+    background:url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/icon.png)
+    no-repeat;
+    display:inline-block;
+    width:95px;
+    height:92px;
+    margin-top:14px;
+    margin-bottom:13px;
+    background-position:-1098px -6px;
+    opacity:0.7;
+    cursor:pointer;
+}
+.icon10:hover{
+    opacity:1;
+}
+.inner{
+    width:100%;
+    height:147px;
+    padding-bottom:58px;
+}
+.website .txt{
+    height:45.6px;
+    line-height:45.6px;
+    color:#424242;
+    font-weight:bold;
+    margin:5px 0;
+}
+.lst{
+    display:flex;
+}
+.lst-item{
+    flex:1;
+    height:88px;
+    line-height:88px;
+    font-size:16px;
+    color:#fff;
+    text-align:center;
+    text-shadow:1px 2px 2px #000;
+    cursor:pointer;
+}
+.lst1{
+    background-color: #e19e35;
+}
+.lst2{
+    background-color: #28828a;
+}
+.lst3{
+    background-color: #7f307e;
+}
+.lst4{
+    background-color: #566175;
+}
+.lst5{
+    background-color: #363c6b;
+}
+.main{
+    background:url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/main_bg.jpg)
+    no-repeat center;
+    background-position-y:906px;
+}
+.footer{
+    width:100%;
+    height:104.2px;
+    background:#016871 url(http://www.gdufe.edu.cn/_upload/tpl/00/6f/111/template111/images/foot_bg.jpg)
+    no-repeat center center;
+    padding:15px 0;
+}
+.bot{
+    display:flex;
+    position:relative;
+}
+.bot-left{
+    margin-top:21px;
+    color:rgb(163, 189, 192);
+    font-size:13px;
+}
+.bot-left a{
+    text-decoration:none;
+    color:rgb(163, 189, 192);
+    font-size:13px;
+}
+.bot-left ul{
+    text-decoration:none;
+    margin:0;
+    padding:0;
+}
+.bot-left li{
+    list-style:none;
+    margin:0;
+    padding:0;
+    margin-bottom:5px;
+}
+.bot-right{
+    display:flex;
+    position:absolute;
+    right:10px;
+    text-align:center;
+}
+.bot-right .spec{
+    margin-right:44px;
+}
+.bot-right p{
+    margin:0;
+    padding:0;
+    color:#a3bdc0;
+    margin-top:3px;
+    font-size:14px;
+}
+.sydw{
+    text-align:center;
+}
